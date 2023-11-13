@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="main-card">
+    <div class="card">
+      <p><%= @userinput %></p>
+      <p class="italic">-You</p>
+    </div>
+    <div class="card">
+      <p><%= @coachanswer %></p>
+      <p class="italic">-Your coach</p>
+    </div>
+    <div class="card-link">
+      <%= link_to 'Ask a new question', ask_path %>
+    </div>
+  </div>
+</div>

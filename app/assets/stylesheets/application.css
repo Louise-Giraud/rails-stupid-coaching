@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+.container {
+  padding: 30px;
+  margin: O, 30px;
+}
+
+.main-card {
+  padding: 20px;
+}
+
+.card {
+  padding: 20px;
+  margin: 15px
+}
+
+.card-link {
+  padding: 20px;
+  margin: 15px
+}
+
+.italic {
+  font-weight: lighter;
+}
